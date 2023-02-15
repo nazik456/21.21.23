@@ -63,3 +63,43 @@ header {
   padding-top: 33%;
   padding-left: 120px;
 }
+.color-a {
+  color: #B3B3B3;
+}
+.inside-pictures-and-h1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.aqua-text {
+  color: #A8A8A8;
+}
+.red-price {
+  color: red;
+}
+.titles {
+  margin-top: -0.5px;
+}
+.price {
+  margin-top: -8px;
+}
+.second-term-pictures {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.third-term-pictures {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.fourth-term-pictures {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.fifth-term-pictures {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
