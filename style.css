@@ -279,6 +279,7 @@ main {
 }
 .table {
   max-width: 100%;
+  padding-left:150px;
 }
 .img-and-h1-h4 {
   background-image: url(./img/Rectangle\ -\ 2023-02-13T215933.732.png);
