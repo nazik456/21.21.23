@@ -245,3 +245,12 @@ footer {
   display: block;
   text-align: left;
 }
+.ul3,.li3,.a3 {
+  display: block;
+  text-align: left;
+  margin-right: 90px;
+}
+.nav2 {
+  display: flex;
+  flex-wrap: wrap;
+}
