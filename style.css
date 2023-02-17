@@ -134,3 +134,12 @@ main {
 .h1-main {
   color: #fff;
 }
+.third-button {
+  background-color: #7E6E45;
+  color: #fff;
+  border: none;
+  padding: 10px 40px;
+}
+.h4-main {
+  color: #fff;
+}
