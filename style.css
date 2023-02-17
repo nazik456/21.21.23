@@ -143,3 +143,48 @@ main {
 .h4-main {
   color: #fff;
 }
+.round {
+  background: #7E6E45;
+  border-radius: 0px 50px;
+  margin-left: 92%;
+  padding-top: 7px;
+}
+@media (max-width: 900px) {
+  .round {
+    margin-left: 0;
+  }
+}
+.paragrav-main {
+  position: relative;
+  padding-bottom: 19px;
+  margin-left: 23px;
+  text-align: center;
+  color: #fff;
+}
+.main-2 {
+  background: #312F2E;
+  height: 90vh;
+}
+.inside-main-2 {
+  display: flex;
+  padding: 70px;
+  padding-top: 90px;
+}
+
+@media (max-width: 900px) {
+  .main-2 {
+    height: 145vh;
+  }
+  .inside-main-2 {
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .copybook {
+    max-width: 100%;
+    padding-top: 20px;
+    flex-wrap: wrap;
+  }
+}
+.copybook {
+  height: 60vh;
+}
