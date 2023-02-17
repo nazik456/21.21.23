@@ -254,3 +254,11 @@ footer {
   display: flex;
   flex-wrap: wrap;
 }
+@media (max-width: 900px) {
+  .ul3,.li3,.a3 {
+    display: flex;
+    margin-right: 0;
+    flex-wrap: wrap;
+    text-align: righ;
+  }
+}
