@@ -1,6 +1,61 @@
 * {
   box-sizing: border-box;
 }
+.nav {
+  display: flex;
+}
+
+#burger, [for=burger] {
+  display: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 855px) {
+  [for=burger]:hover {
+    background-color: red;
+  }
+  [for=burger] {
+    display: block;
+    position: fixed;
+    width: 30px;
+    text-align: center;
+    right: 0px;
+    top: 2px;
+    background-color: pink;
+  }
+  [for=burger]::before {
+    content: '☰';
+  }
+  .nav {
+    display: none;
+    position: fixed;
+    top: 0px;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    width: 100%;
+    padding: 0px 0px 50px;
+    padding-left: -60px;
+    margin-left: 150px;
+    border-radius: 3px;
+  }
+  .ul1 {
+    padding: 0px 0px 0px;
+   }
+  .ul2 {
+   padding: 0px 0px 0px 40px;
+   text-align: center;
+  }
+  #burger:checked + label + .nav {
+    display: block;
+  }
+  #burger:checked +[for=burger]::before {
+    content: "✖️";
+  }
+  .logo-h1 {
+    text-align: center;
+    padding-left: 150px;
+  }
+}
 body,
 head {
   margin: 0;
