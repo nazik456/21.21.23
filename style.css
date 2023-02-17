@@ -233,13 +233,25 @@ main {
   .inside-main-2 {
     flex-wrap: wrap;
     max-width: 100%;
+    padding: 0;
   }
   .copybook {
     max-width: 100%;
     padding-top: 20px;
     flex-wrap: wrap;
   }
+  .left {
+    padding-right: 90px;
+    text-align: center;
+    max-height: 29vh;
+  }
 }
+@media (max-width: 450px) {
+  .left {
+    min-height: 50vh;
+  }
+}
+
 .copybook {
   height: 60vh;
 }
@@ -286,6 +298,11 @@ main {
 .h1-paragrav {
   text-align: center;
   padding-top: 40px;
+}
+.long-text {
+  text-align: center;
+  padding-top: 220px;
+  color: #fff;
 }
 .input {
   padding: 10px 55px;
