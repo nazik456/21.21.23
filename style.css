@@ -213,3 +213,22 @@ main {
 .table {
   max-width: 100%;
 }
+.img-and-h1-h4 {
+  background-image: url(./img/Rectangle\ -\ 2023-02-13T215933.732.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  margin-top: 48px;
+}
+.small-text {
+  color: #fff;
+  text-align: center;
+}
+.h1-and-paragrav {
+  background: #CED3CA;
+  height: 50vh;
+}
+.h1-paragrav {
+  text-align: center;
+  padding-top: 40px;
+}
