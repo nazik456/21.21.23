@@ -188,3 +188,11 @@ main {
 .copybook {
   height: 60vh;
 }
+.left {
+  background: #fff;
+  height: 60vh;
+  width: 100%;
+  padding-left: 90px;
+  padding-top: 70px;
+  max-width: 100%;
+}
