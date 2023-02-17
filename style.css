@@ -196,3 +196,20 @@ main {
   padding-top: 70px;
   max-width: 100%;
 }
+.inside-galery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+.another-h1 {
+  text-align: center;
+  padding-top: 70px;
+  color: #1A1A1A;
+}
+.two-picture {
+  max-width: 100%;
+}
+.table {
+  max-width: 100%;
+}
