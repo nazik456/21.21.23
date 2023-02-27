@@ -3,6 +3,7 @@
 }
 .nav {
   display: flex;
+  margin-top: -10px;
 }
 
 #burger, [for=burger] {
@@ -341,4 +342,8 @@ footer {
 .third-galery {
   text-align: right;
   padding-top: 30px;
+}
+.form-input {
+  width: 350px;
+  height: 45px;
 }
